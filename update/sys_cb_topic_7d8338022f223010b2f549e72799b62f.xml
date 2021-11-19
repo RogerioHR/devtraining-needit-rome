@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>script</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <category>3efd22da0b203300a1b16c2367673a10</category>
+        <channels/>
+        <connect_queue/>
+        <description>A custom test</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.31","variables":{"8100d4d1bde2453f93d12e7f5f484be4":{"id":"8100d4d1bde2453f93d12e7f5f484be4","name":"LiveAgent_application","value":{"mode":"simple","value":""},"varType":"script","category":"vaVars"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"93eb27fb49db49d88e60a6f35787ef4a":{"id":"93eb27fb49db49d88e60a6f35787ef4a","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"f54e8d728bf54b7dbc288db82ad919f9":{"id":"f54e8d728bf54b7dbc288db82ad919f9","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"fe40531fa517422699a83e99d73bfaab","edgeType":"Edge","source":"93eb27fb49db49d88e60a6f35787ef4a","target":"f54e8d728bf54b7dbc288db82ad919f9","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>rhr_My Assigned Equipment,assigned asset,asset,hardware,hardware status,assigned,equipment,assigned equipment,cellPhone</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>rhr_My Assigned Equipment</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 15:01:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7d8338022f223010b2f549e72799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rhr_My Assigned Equipment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_7d8338022f223010b2f549e72799b62f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 15:01:52</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=7d8338022f223010b2f549e72799b62f"/>
+</record_update>
